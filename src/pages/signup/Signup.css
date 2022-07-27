@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+}
+
+.upsection1{
+    width: 60vw;
+    height: 90vh;
+    display: flex;
+    margin: auto;
+    margin-top: 3.5rem;
+    border: 1px solid #dadce0;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upmain{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+   
+}
+
+.upheadings{
+    font-weight: 500;
+    font-size: 22px;
+    margin-left: 20px;
+    display: flex;
+    
+}
+.upheading2{
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 20px;
+    display: flex;
+    
+}
+
+.upinputBoxDiv{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+.uptextBox{
+    padding: 3px !important;
+    width: 100%;
+    height: 25px;
+}
+
+.upspanText{
+    display: flex;
+    width: 80%;
+    font-size: small;
+}
+
+.upspanText1{
+    display: flex;
+    width: 80%;
+    font-size: large;
+    flex-wrap: wrap;  
+    color: #1a73e8; 
+}
+
+.upbuttonDiv{
+    width: 78%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .secondSec{
+    width: 20%;
+    height: 42%;
+    display: flex;
+    flex-direction: row;
+    background-image: url("../../../assets/account.svg");
+} */
+
+
+
+
+.upsection2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 250px;
+    width: 350px;
+}
+
+.upimagesection{
+    background-image: url("../../../assets/account.svg");
+    width: 200px;
+    height: 500px;
+}
+.upaccBase{
+    font-weight: 400;
+    font-size: large;
+    text-align: center;
+    display: flex;
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .upsection1{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .upmain{
+        width: 100%;
+        height: 90%;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    .upsection1{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .upmain{
+        width: 100%;
+        height: 60%;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+} 
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .upmain{
+        width: 60%;
+        height: 50%;
+    }
+}

@@ -1,0 +1,73 @@
+
+.mainsectionNote1{  
+    
+    margin-top: 100px; 
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 15vh;
+
+}
+
+.titleSection{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 99%;
+    height: 50%;
+}
+
+.iconTakeNote{
+    width: 15%;
+    height: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.titleInput{
+    outline: none;
+    margin-left: 5px;
+    display: flex;
+    width: 100%;
+    height: 90%;
+    border: none;
+}
+
+.descriptionSection{
+    width: 100%;
+    height: 60%;
+}
+
+.titleDescription{
+    outline: none;
+    width: 98%;
+    height: 90%;
+    border: none;
+}
+
+
+.section3{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardIcons{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardButton{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}

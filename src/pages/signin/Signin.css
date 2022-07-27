@@ -1,0 +1,89 @@
+
+*{
+    margin: 0;
+}
+
+.insection1{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.inmain{
+    width: 27%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #dadce0;
+}
+
+.ininputBoxDiv{
+    width: 80%;
+}
+
+.intextBox{
+    width: 100%;
+    height: 25px;
+}
+
+.inspanText{
+    display: flex;
+    width: 80%;
+    font-size: small;
+}
+
+.inspanText1{
+    display: flex;
+    width: 80%;
+    font-size: large;
+    flex-wrap: wrap;  
+    color: #1a73e8; 
+}
+
+.inbuttonDiv{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .insection1{
+        width: 100vw;
+        height: 100vh;
+        
+    }
+
+    .inmain{
+        width: 100%;
+        height: 90%;
+       
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    .insection1{
+        width: 100vw;
+        height: 100vh;
+        
+    }
+    .inmain{
+        width: 100%;
+        height: 60%;
+        
+    }
+} 
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .inmain{
+        width: 60%;
+        height: 50%;
+    }
+}

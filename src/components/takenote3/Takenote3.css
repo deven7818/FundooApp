@@ -1,0 +1,53 @@
+
+.cardbox{
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+.cardContent{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.pinIcon{
+    display: flex;
+    justify-content: space-between;
+}
+.cardBody{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.cardicon{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.modalBox{
+    outline: none;
+    border-radius: 8px;
+}
+
+.modelbottomSection{
+    display: flex;
+    align-items: flex-end;
+}
+
+.modelicon{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 70%;
+}
+
+.modelBtn{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 30%;
+}

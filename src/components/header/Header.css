@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.HeaderMain{
+    height: 9vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.HeaderBox1{
+    padding: 5px;
+    display: flex;
+    width: 18%;
+    justify-content: flex-start;
+}
+
+.keepImg{
+    display: flex;
+    height: 100%;
+    width: 2.3%;
+}
+
+.keepName{
+    margin-top: 10px;
+}
+
+.search{
+    margin-top: 8px;
+    display: flex;
+    border-radius: 8px;
+    background-color: rgba(236, 241, 241, 0.993);
+    width: 50%;
+    height: 70%;
+
+}
+
+.iconsRight{
+     
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+}
+.righticons{
+    display: flex;
+    margin-top: 12px;
+    width: 50%;
+    justify-content: space-between;
+}

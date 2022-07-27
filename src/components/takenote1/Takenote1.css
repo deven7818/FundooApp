@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mainSection{
+    display: flex;
+    justify-content: center;
+}
+
+.mainnote1{
+    border-radius: 8px;
+    
+    border: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vw;
+    height: 6vh;
+}
+
+.takeanotepara{
+    margin-left: 20px;
+    font-weight: 400;
+}
+
+.btnTakeNote{
+    width: 200px;
+    height: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
